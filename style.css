@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px;
+}
+
+hr{
+    color: hsl(30, 18%, 87%);
+    width: 99%;
+}
+
+.heroSection {
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    padding: 50px 0 50px 0;
+}
+.heroSection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.heroSection2 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif', serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.heroSection2 p {
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.heroSection2 div{
+    padding: 70px 50px 50px 50px;
+}
+.heroSection2>div>h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', serif;
+    margin: 0;
+    padding: 0;
+}
+.heroSection2>div>ul{
+    padding-left: 35px;
+}
+.heroSection2>div>ul>li{
+    padding-left: 20px;
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size:  20px;
+    color: hsl(24, 5%, 18%);
+}
+.heroSection2>div>ul>li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.heroSection2>div>ul>li>span{
+    font-family: 'Outfit', serif;
+    font-weight: 600;
+    font-size:  20px;
+}
+
+.ingredients>h1{
+    font-family: 'Young Serif', serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients>ul{
+    padding-left: 28px;
+}
+.ingredients>ul>li::marker{
+    color: hsl(14, 45%, 36%);
+}
+.ingredients>ul>li{
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size:  20px;
+    padding: 8px 0 8px 30px;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions>h1{
+    font-family: 'Young Serif', serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: hsl(14, 45%, 36%);
+}
+.instructions>ol{
+    padding-left: 28px;
+}
+.instructions>ol>li{
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size:  20px;
+    padding: 8px 0 8px 30px;
+    color: hsl(24, 5%, 18%);
+}
+.instructions>ol>li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.instructions>ol>li>span{
+    font-weight: 600;
+}
+
+.nutritions>h1{
+    font-family: 'Young Serif', serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: hsl(14, 45%, 36%);
+}
+.nutritions>p{
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    font-size:  20px;
+    color: hsl(24, 5%, 18%);
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.nutritions>div>div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px 10px 35px;
+}
+.nutritions>div>div>label{
+    width: 100%;
+    font-family: 'Outfit', serif;
+    font-size: 25px;
+    color: hsl(24, 5%, 18%);
+}
+.nutritions>div>div>.quantity{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 376px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main{
+        margin: 0;
+        padding: 0;
+    }
+
+    hr{
+        width: 85%;
+        
+    }
+
+    .heroSection{
+        padding: 0;
+        overflow: hidden;
+        height: 180px;
+    }
+    .heroSection>img{
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .heroSection2{
+        padding: 25px 30px 0px 30px;
+    }
+    .heroSection2>h1{
+        font-size: 35px;
+        font-weight: 600;
+        color: hsl(24, 5%, 18%);
+        font-family: 'Young Serif', serif;
+    }
+    .heroSection2>p{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+        font-family: 'Outfit', sans-serif;
+    }
+    .heroSection2>div{
+        padding: 35px 30px 0 30px;
+    }
+    .heroSection2>div>h2{
+        font-size: 21px;
+        font-weight: 600;
+        color: hsl(332, 51%, 32%);
+        font-family: 'Outfit', serif;
+    }
+    .heroSection2>div>ul{
+        padding-left: 25px;
+    }
+    .heroSection2>div>ul>li{
+        font-size: 16px;
+        padding: 5px 0 5px 15px;
+        color: hsl(30, 10%, 34%);
+    }
+    .heroSection2>div>ul>li>span{
+        font-size: 17px;
+    }
+
+    .ingredients{
+        padding: 0px 30px 0px 30px;
+    }
+    .ingredients>h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .ingredients>ul{
+        padding-left: 20px;
+    }
+    .ingredients>ul>li{
+        font-size: 16px;
+        padding: 6px 0 6px 15px;
+    }
+
+    .instructions{
+        padding: 0px 30px 0px 30px;
+    }
+    .instructions>h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .instructions>ol{
+        padding-left: 20px;
+    }
+    .instructions>ol>li{
+        font-size: 16px;
+        padding: 8px 0 8px 15px;
+    }
+
+    .nutritions{
+        padding: 0px 30px 30px 30px;
+    }
+    .nutritions>h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .nutritions>p{
+        font-size: 16px;
+        word-spacing: 0;
+        letter-spacing: 0;
+    }
+    .nutritions>div>hr{
+        width: 99%;
+    }
+    .nutritions>div>div>label{
+        font-size:  18px;
+    }
+}
