@@ -156,7 +156,119 @@ hr{
 
 
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 376px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .main{
+        margin: 0;
+        padding: 0;
+    }
+
+    hr{
+        width: 85%;
+        
+    }
+
+    .heroSection{
+        padding: 0;
+        overflow: hidden;
+        height: 180px;
+    }
+    .heroSection>img{
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .heroSection2{
+        padding: 25px 30px 0px 30px;
+    }
+    .heroSection2>h1{
+        font-size: 35px;
+        font-weight: 600;
+        color: hsl(24, 5%, 18%);
+        font-family: 'Young Serif', serif;
+    }
+    .heroSection2>p{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(30, 10%, 34%);
+        font-family: 'Outfit', sans-serif;
+    }
+    .heroSection2>div{
+        padding: 35px 30px 0 30px;
+    }
+    .heroSection2>div>h2{
+        font-size: 21px;
+        font-weight: 600;
+        color: hsl(332, 51%, 32%);
+        font-family: 'Outfit', serif;
+    }
+    .heroSection2>div>ul{
+        padding-left: 25px;
+    }
+    .heroSection2>div>ul>li{
+        font-size: 16px;
+        padding: 5px 0 5px 15px;
+        color: hsl(30, 10%, 34%);
+    }
+    .heroSection2>div>ul>li>span{
+        font-size: 17px;
+    }
+
+    .ingredients{
+        padding: 0px 30px 0px 30px;
+    }
+    .ingredients>h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .ingredients>ul{
+        padding-left: 20px;
+    }
+    .ingredients>ul>li{
+        font-size: 16px;
+        padding: 6px 0 6px 15px;
+    }
+
+    .instructions{
+        padding: 0px 30px 0px 30px;
+    }
+    .instructions>h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .instructions>ol{
+        padding-left: 20px;
+    }
+    .instructions>ol>li{
+        font-size: 16px;
+        padding: 8px 0 8px 15px;
+    }
+
+    .nutritions{
+        padding: 0px 30px 30px 30px;
+    }
+    .nutritions>h1{
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .nutritions>p{
+        font-size: 16px;
+        word-spacing: 0;
+        letter-spacing: 0;
+    }
+    .nutritions>div>hr{
+        width: 99%;
+    }
+    .nutritions>div>div>label{
+        font-size:  18px;
+    }
+}
+
+@media only screen and (max-width: 426px){
     body{
         margin: 0;
         padding: 0;
